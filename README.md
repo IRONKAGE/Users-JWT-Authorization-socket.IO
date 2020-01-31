@@ -9,4 +9,4 @@ JSON Web Token з БД Mongo та socket.IO
 
 4) Насолоджуйтесь 🤠
 
-⚠UPD: Наразі є проблема з TypeError: db.Schema is not a function
+⚠UPD: Наразі є проблема з TypeError: socket.io is not a function
