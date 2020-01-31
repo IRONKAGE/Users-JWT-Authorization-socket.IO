@@ -32,7 +32,7 @@ mongoose.then(connction => {
             createUser(socket, data);
         });
     
-        socket.io('user.login', (data) => {
+        socket.on('user.login', (data) => {
             authenticateUser(socket, data);
         });
     
